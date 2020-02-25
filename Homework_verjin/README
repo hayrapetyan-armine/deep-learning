@@ -1,0 +1,12 @@
+1. t10k-images.idx3-ubyte.gz, t10k-labels.idx1-ubyte.gz, train-images.idx3-ubyte.gz, train-labels.idx1-ubyte.gz
+files extract in data/source_data folder
+
+2. create and then activate virtualenv """source venv/bin/activate"""
+
+3. run """pip install -r requirements.txt""" on the root folder
+
+4. if you want to train model run """python main.py --train True""" on the root folder
+
+5. if you want to test model run """python main.py --train False""" on the root folder
+
+# Note: The program is tested on python 3.6 version
